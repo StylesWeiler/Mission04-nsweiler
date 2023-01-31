@@ -1,0 +1,35 @@
+﻿/* Style the site using Bootstrap. */
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+}
+
+textarea {
+    font-size: 25px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+h2{
+    text-align: center;
+}
+
+h1 {
+    padding: 20px;
+}
+
+p{
+    text-align: center;
+}
+
+h4{
+    padding: 55px;
+}
+
+ul{
+    margin-left: 60px;
+}
