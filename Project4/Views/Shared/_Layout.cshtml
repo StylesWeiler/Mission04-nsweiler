@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+<head>
+    @* Shared head tag that will be on each page *@
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <!-- Title for website using C# code (indicated by the at sign) -->
+    <title>@ViewData["Title"]</title>
+    <!--• An icon for the website (displayed on the tab next to the website title)-->
+    <!--(#notcoveredinthevideos)-->
+    <link rel="icon" type="image/x-icon" href="~/img/icons8-star.gif">
+    <!--• Include at least one change to the styling using your own CSS file.-->
+    <link href="~/css/styles.css" rel="stylesheet" />
+</head>
+
+
+<body>
+    <script src="~/lib/jquery/jquery-3.6.3.min.js"></script>
+
+    <nav>
+        <a asp-controller="example" asp-action="Index">Home</a>
+        @* Navigates to the exampleController and the Index file *@
+        <a asp-controller="example" asp-action="Grader">Grader</a>
+    </nav>
+
+    <div>
+        @RenderBody()
+        @*indicates where the body will go in each page of the site. This body comes from the .cshtml file*@
+    </div>
+
+    <footer>This is the footer</footer>
+
+    <script src="~/lib/bootstrap/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>

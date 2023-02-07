@@ -67,5 +67,5 @@
     }
 
     // output the letter grade determined in the above if statement block
-    $("#lettergrade").text(lettergrade);
+    alert(lettergrade);
 });

@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="wwwroot\index.html" />
     <None Include="wwwroot\js\grader.js" />
   </ItemGroup>
 
